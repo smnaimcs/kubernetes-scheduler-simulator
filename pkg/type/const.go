@@ -10,6 +10,7 @@ const (
 	GpuPackingScorePluginName    = "GpuPackingScore"
 	BestFitScorePluginName       = "BestFitScore"
 	FGDScorePluginName           = "FGDScore"
+	TierBinPackingScorePluginName = "TierBinPackingScore"
 
 	NewNodeNamePrefix    = "simon"
 	DefaultSchedulerName = "simon-scheduler"

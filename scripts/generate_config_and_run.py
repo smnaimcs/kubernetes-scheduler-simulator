@@ -26,6 +26,7 @@ SCORE_POLICY_ABBR = {
     "GpuPackingScore":    "GpuPacking",
     "BestFitScore":       "BestFit",
     "FGDScore":           "FGD",
+    "TierBinPackingScore": "TBP",
 }
 
 SCORE_PLUGINS_WITH_DIM_NORM_GPU_METHOD = [
@@ -209,6 +210,7 @@ profiles:
           - name: GpuPackingScore
           - name: BestFitScore
           - name: FGDScore
+          - name: TierBinPackingScore
           # 
           - name: ImageLocality
           - name: NodeAffinity
